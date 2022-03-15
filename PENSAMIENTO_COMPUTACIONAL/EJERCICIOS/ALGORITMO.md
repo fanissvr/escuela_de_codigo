@@ -16,9 +16,9 @@
 
 * INICIO
 * DECLARAR
-    fecha_nacimiento
-    fecha_actual
-    edad
+    * fecha_nacimiento
+    * fecha_actual
+    * edad
 * ASIGNAR
     fecha_nacimiento  = 12/09/1998
     fecha_actual = 15/03/2022
