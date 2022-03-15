@@ -3,7 +3,24 @@ Reto. Describe el proceso en que se computa las siguientes fórmulas.
 
 X = (18/9 * 2 + 16) – ( 5 * 4 – 3^3)
 
+  * (18/9 * 2 + 16) primero se realiza lo que hay dentro en este paréntesis
+    * (18/9 * 2 + 16) dentro de este paréntesis la división 18/9 se realiza primero cuyo resultado es 2.
+    * Ese resultado se multiplica por 2. cuyo resultado es 4.
+    * Finalmnete se suma el 16, cuyo resultado es 20.
+  * ( 5 * 4 – 3^3) después se realiza lo que hay dentro de este otro paréntesis
+    * ( 5 * 4 – 3^3) dentro de este paréntesis la potencia 3^3 se realiza primero cuyo resultado es 27.
+    * Seguidamente se realiza la multiplicación 5 * 4, cuyo resultado es 20.
+    * Finalmnete se resta el 27 del 20, cuyo resultado es -7
+ 
+  * Por último se realiza la resta de los resultados de las operaciones dentro de los dos paréntesis
+    * 20-(-7) = 27
+
 X = (5 + 2 * 4) – (25 +. 5)2
+
+  * (5 + 2 * 4) primero se realiza lo que hay dentro en este paréntesis
+ 
+  * (25 +. 5)^2 después se realiza lo que hay dentro de este otro paréntesis 
+
 
 X = (100/5^2 + 1) + 11 * 3
 
