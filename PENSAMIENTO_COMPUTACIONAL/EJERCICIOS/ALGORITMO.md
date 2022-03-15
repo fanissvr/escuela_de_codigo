@@ -20,10 +20,10 @@
     * fecha_actual
     * edad
 * ASIGNAR
-    fecha_nacimiento  = 12/09/1998
-    fecha_actual = 15/03/2022
+    * fecha_nacimiento  = 12/09/1998
+    * fecha_actual = 15/03/2022
 * OPERACIÓN
-    edad = fecha_actual - fecha_nacimiento
+    * edad = fecha_actual - fecha_nacimiento
 * MOSTRAR
-    edad = 23
+    * edad = 23
 * FIN
