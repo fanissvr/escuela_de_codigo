@@ -15,11 +15,15 @@ X = (18/9 * 2 + 16) – ( 5 * 4 – 3^3)
   * Por último se realiza la resta de los resultados de las operaciones dentro de los dos paréntesis
     * 20-(-7) = 27
 
-X = (5 + 2 * 4) – (25 +. 5)2
+X = (5 + 2 * 4) – (25 +. 5)^2
 
   * (5 + 2 * 4) primero se realiza lo que hay dentro en este paréntesis
+   * dentro de este paréntesis la multiplicación 2 * 4 se realiza primero cuyo resultado es 8.
+   * Posteriormente se le suma el 5, dando como resultado 13.
  
   * (25 +. 5)^2 después se realiza lo que hay dentro de este otro paréntesis 
+  * aquí orimero se realiza la operacion dentro del parentesis, es decir, la suma de 25+.5, cuyo resultado es 25.5
+  * luego, este resultado se eleva a la potencia 2, cuyo resultado es 27
 
 
 X = (100/5^2 + 1) + 11 * 3
