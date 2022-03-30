@@ -14,17 +14,17 @@ Convierte los siguientes ejercicios realizado durante el taller a pseudocodigo.
 
 2. Realiza un diagrama de flujo para obtener la suma de diez cantidades, que se soliciten al usuario, mediante la utilización de un ciclo “Mientras”. 
 ### Algoritmo
-  Algoritmo suma_cantidades
-    suma1<-0
-    contador<-1
-    Mientras contador <=10 Hacer
-      Escribir "Ingrese un número"
-      Leer cantidades
-      suma1=suma1+cantidades
-      contador = contador + 1
-    Fin Mientras
-    Escribir "La suma de los 10 números ingresados es ", suma1
-  FinAlgoritmo
+      Algoritmo suma_cantidades
+        suma1<-0
+        contador<-1
+        Mientras contador <=10 Hacer
+          Escribir "Ingrese un número"
+          Leer cantidades
+          suma1=suma1+cantidades
+          contador = contador + 1
+        Fin Mientras
+        Escribir "La suma de los 10 números ingresados es ", suma1
+      FinAlgoritmo
 ### Diagrama de flujo
 ![image](https://user-images.githubusercontent.com/80857368/160696070-c9adf736-527e-442a-86fc-fffc5ba4f65d.png)
 
