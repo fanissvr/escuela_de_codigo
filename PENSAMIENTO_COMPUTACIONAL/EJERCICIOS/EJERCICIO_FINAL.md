@@ -2,44 +2,48 @@ Realiza en algoritmo, pseudocodigo y diagrama de flujo, un Juego simple que pide
 
 ### Algoritmo
     inicio
-    declarar (numero, num_usuario)
-    asignar (numero)
+    declarar (num_secreto, num_usuario)
+    asignar (num_secreto)
 
-    PARA (contador <= 10)
-      asignar (contador = 1)
-      mostrar ("adivine el número en 10 intentos: intento "+contador)
+    mostrar ("Adivina el número secreto en 10 intentos")
+    asignar (num_usuario)
+    asignar (contador = 10)
+    
+    MIENTRAS contador>1 && num_usuario <> num_secreto HACER
+      SI (num_secreto > num_usuario) ENTONCES mostrar ("el número que ingresaste es menor") SINO mostrar ("el número que ingresaste es mayor") FIN SI
+      contador = contador - 1
+      mostrar ("Te quedan " + contador + " intentos")
       asignar (num_usuario)
-
-      SI (numero=num_usuario) ENTONCES mostrar ("adivinaste el número correcto")
-        SINO SI (numero > num_usuario) ENTONCES mostrar ("el número que ingresaste es menor, tienes " + (10 -contador) + " intentos")
-          SINO mostrar ("el número que ingresaste es mayor, tienes " + (10 -contador) + " intentos")
-          FIN SI
-      FIN SI
-      contador = contador + 1
-    FIN PARA
+    FIN MIENTRAS
+    
+    SI num_secreto = num_usuario ENTONCES mostrar ("¡Felicidades, adivinaste el número!") SINO mostrar ("Perdiste :( el número era " + num_secreto) FIN SI
 
 ### Pseudocodigo
     Algoritmo juego_numeros
-      numero1<-5
-      Para contador<-1 Hasta 10 Con Paso paso Hacer
-        Escribir "Adivine el número en 10 intentos: intento ",contador
-        Leer numero_usuario
-        Si numero1 = numero_usuario Entonces
-          Escribir "Adivinaste el número correcto"
+        num_secreto<-5
+        Escribir "Adivina el número secreto en 10 intentos"
+        Leer num_usuario
+        contador<-10
+        Mientras contador>1 & num_usuario <> num_secreto Hacer
+            Si num_secreto > num_usuario Entonces
+                Escribir "El número que ingresaste es menor"
+            SiNo
+                Escribir "El número que ingresaste es mayor"
+            Fin Si
+            contador = contador - 1
+            Escribir "Te quedan ", contador, " intentos"
+            Leer num_usuario
+        Fin Mientras
+
+        Si num_secreto = num_usuario Entonces
+            Escribir "¡Felicidades, adivinaste el número!"
         SiNo
-          Si numero1 > numero_usuario Entonces
-            Escribir "el número que ingresaste es menor, tienes ", 10 -contador," intentos"
-          SiNo
-            Escribir "el número que ingresaste es mayor, tienes ",10 -contador," intentos"
-          Fin Si
+            Escribir "Perdiste :( el número era ", num_secreto
         Fin Si
-        contador = contador + 1
-      Fin Para
     FinAlgoritmo
 
 ### Diagrama de flujo
-![image](https://user-images.githubusercontent.com/80857368/160701430-ef2c05b1-7677-4368-9149-4662e10bdd2f.png)
-
+![image](https://user-images.githubusercontent.com/80857368/160920798-172025ff-92ec-47b4-ac85-86656c5adb6b.png)
 
 Ingresa al siguiente link para el resumen final
 
